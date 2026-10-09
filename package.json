@@ -1,0 +1,26 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "A basic restaurant page made with HTML, CSS, and Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinsoysauce/odin-restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/vinsoysauce/odin-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/vinsoysauce/odin-restaurant-page#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.8",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3"
+  }
+}
