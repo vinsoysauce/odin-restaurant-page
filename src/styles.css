@@ -1,1 +1,105 @@
 /* styles.css */
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+*:not(dialog) {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+#root, #__next {
+  isolation: isolate;
+} 
+ 
+body {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  background-color:floralwhite;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  min-height: 150px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+}
+
+
+button {
+  min-width: 100px;
+  min-height: 40px;
+  border-radius: 50px;
+  border-style: none;
+  color: rgb(0, 73, 0);
+  background-color:floralwhite;
+}
+
+button:hover {
+  background-color: rgb(0, 73, 0);
+  color:floralwhite;
+  cursor: pointer;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: rgb(0, 73, 0);
+  border-radius: 40px;
+}
+
+.description {
+  color: white;
+}
+
+img {
+  height: 500px;
+  width: 600px;
+  border-radius: 60px;
+  border: 0.6px solid grey;
+}
