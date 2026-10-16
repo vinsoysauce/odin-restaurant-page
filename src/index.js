@@ -3,7 +3,7 @@ import steakImage from "./images/steak.jpg"
 
 console.log('hello')
 
-export const content = (() => {
+export const home = (() => {
   const container = document.querySelector("#content")
   const description = document.createElement("div");
   description.classList.add('description')
@@ -24,13 +24,3 @@ export const content = (() => {
   container.appendChild(description)
 })
 
-content()
-
-
-        // <!-- <div class="description">
-        // <h1>Steaks & Stones</h1>
-        // <p>Seasonal dishes, thoughtful details, </p>
-        // <p>and warm hospitality. Make yourself at home</p>
-        // <p>at our table</p>
-        // </div>
-        // <img src="/src/images/steak.jpg"> --></img>
