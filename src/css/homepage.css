@@ -1,4 +1,4 @@
-.container {
+.homepage-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -8,12 +8,12 @@
   height: 60vh;
 }
 
-h1 {
+.homepage-header {
   font-size: 4em;
   border-bottom: 2px solid goldenrod;
 }
 
-p {
+.homepage-para {
   font-size: 1.5rem;
   width: 20vw;
 }
