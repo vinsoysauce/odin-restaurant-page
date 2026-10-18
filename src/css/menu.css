@@ -1,0 +1,10 @@
+
+.container {
+  background-color: #fffdf8;
+  border-top: 5px solid #b59560;
+  border-radius:10px;
+}
+
+h1 {
+  border-style: none;
+}

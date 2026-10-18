@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #102820;
+  border-radius: 40px;
+  height: 60vh;
+}
+
+h1 {
+  font-size: 4em;
+  border-bottom: 2px solid goldenrod;
+}
+
+p {
+  font-size: 1.5rem;
+  width: 20vw;
+}
+
+.description {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.img {
+  height: 50vh;
+  width: 50vh;
+  border-radius: 60px;
+  border-style: none
+}
