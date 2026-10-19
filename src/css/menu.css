@@ -19,7 +19,8 @@
 
 .menu-items-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 40px;
 }
 
 .food-container {
