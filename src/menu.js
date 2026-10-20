@@ -34,7 +34,7 @@ const menu = (() => {
   appetizers.textContent = "Appetizers";
   columnOneItems.appendChild(appetizers);
   const appContainerOne = document.createElement("div");
-  appContainerOne.classList.add("appContainer")
+  appContainerOne.classList.add("food-container")
   const appPriceContainerOne = document.createElement("div");
   appPriceContainerOne.classList.add("food-price-container");
   const appOneItem = document.createElement("p");
@@ -53,7 +53,7 @@ const menu = (() => {
   columnOneItems.appendChild(appContainerOne)
 
   const appContainerTwo = document.createElement("div");
-  appContainerTwo.classList.add("foodContainer")
+  appContainerTwo.classList.add("food-container")
   const appPriceContainerTwo = document.createElement("div");
   appPriceContainerTwo.classList.add("food-price-container");
   const appTwoItem = document.createElement("p");
@@ -72,7 +72,7 @@ const menu = (() => {
   columnOneItems.appendChild(appContainerTwo)
 
   const appContainerThree = document.createElement("div");
-  appContainerThree.classList.add("foodContainer")
+  appContainerThree.classList.add("food-container")
   const appPriceContainerThree = document.createElement("div");
   appPriceContainerThree.classList.add("food-price-container");
   const appThreeItem = document.createElement("p");
@@ -95,7 +95,7 @@ const menu = (() => {
   desserts.textContent = "Desserts";
   columnOneItems.appendChild(desserts);
   const dessContainerOne = document.createElement("div");
-  dessContainerOne.classList.add("foodContainer")
+  dessContainerOne.classList.add("food-container")
   const dessPriceContainerOne = document.createElement("div");
   dessPriceContainerOne.classList.add("food-price-container");
   const dessOneItem = document.createElement("p");
@@ -114,7 +114,7 @@ const menu = (() => {
   columnOneItems.appendChild(dessContainerOne)
 
   const dessContainerTwo = document.createElement("div");
-  dessContainerTwo.classList.add("foodContainer")
+  dessContainerTwo.classList.add("food-container")
   const dessPriceContainerTwo = document.createElement("div");
   dessPriceContainerTwo.classList.add("food-price-container");
   const dessTwoItem = document.createElement("p");
@@ -133,7 +133,7 @@ const menu = (() => {
   columnOneItems.appendChild(dessContainerTwo)
 
   const dessContainerThree = document.createElement("div");
-  dessContainerThree.classList.add("foodContainer")
+  dessContainerThree.classList.add("food-container")
   const dessPriceContainerThree = document.createElement("div");
   dessPriceContainerThree.classList.add("food-price-container");
   const dessThreeItem = document.createElement("p");
@@ -156,7 +156,7 @@ const menu = (() => {
   main.textContent = "Main Course";
   columnTwoItems.appendChild(main);
   const mainContainerOne = document.createElement("div");
-  mainContainerOne.classList.add("foodContainer")
+  mainContainerOne.classList.add("food-container")
   const mainPriceContainerOne = document.createElement("div");
   mainPriceContainerOne.classList.add("food-price-container");
   const mainOneItem = document.createElement("p");
@@ -175,7 +175,7 @@ const menu = (() => {
   columnTwoItems.appendChild(mainContainerOne)
 
   const mainContainerTwo = document.createElement("div");
-  mainContainerTwo.classList.add("foodContainer")
+  mainContainerTwo.classList.add("food-container")
   const mainPriceContainerTwo = document.createElement("div");
   mainPriceContainerTwo.classList.add("food-price-container");
   const mainTwoItem = document.createElement("p");
@@ -194,7 +194,7 @@ const menu = (() => {
   columnTwoItems.appendChild(mainContainerTwo)
 
   const mainContainerThree = document.createElement("div");
-  mainContainerThree.classList.add("foodContainer")
+  mainContainerThree.classList.add("food-container")
   const mainPriceContainerThree = document.createElement("div");
   mainPriceContainerThree.classList.add("food-price-container");
   const mainThreeItem = document.createElement("p");
@@ -208,7 +208,7 @@ const menu = (() => {
   mainContainerThree.appendChild(mainPriceContainerThree);
   const mainDescThree = document.createElement("p");
   mainDescThree.classList.add("food-description");
-  mainDescThree.textContent = "Salmon fillet, lemon couscous, asparagus, and a citrus butter sauce."
+  mainDescThree.textContent = "Salmon fillet, lemon couscous, asparagus, tomatoes, and a citrus butter sauce."
   mainContainerThree.appendChild(mainDescThree)
   columnTwoItems.appendChild(mainContainerThree)
 
@@ -217,7 +217,7 @@ const menu = (() => {
   beverage.textContent = "Beverage";
   columnTwoItems.appendChild(beverage);
   const bevContainerOne = document.createElement("div");
-  bevContainerOne.classList.add("foodContainer")
+  bevContainerOne.classList.add("food-container")
   const bevPriceContainerOne = document.createElement("div");
   bevPriceContainerOne.classList.add("food-price-container");
   const bevOneItem = document.createElement("p");
@@ -236,7 +236,7 @@ const menu = (() => {
   columnTwoItems.appendChild(bevContainerOne)
 
   const bevContainerTwo = document.createElement("div");
-  bevContainerTwo.classList.add("foodContainer")
+  bevContainerTwo.classList.add("food-container")
   const bevPriceContainerTwo = document.createElement("div");
   bevPriceContainerTwo.classList.add("food-price-container");
   const bevTwoItem = document.createElement("p");
@@ -255,7 +255,7 @@ const menu = (() => {
   columnTwoItems.appendChild(bevContainerTwo)
 
   const bevContainerThree = document.createElement("div");
-  bevContainerThree.classList.add("foodContainer")
+  bevContainerThree.classList.add("food-container")
   const bevPriceContainerThree = document.createElement("div");
   bevPriceContainerThree.classList.add("food-price-container");
   const bevThreeItem = document.createElement("p");

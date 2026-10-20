@@ -55,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius:10px;
   padding: 50px;
   color: #193b32;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .contact-header-intro {
