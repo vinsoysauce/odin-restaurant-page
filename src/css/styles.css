@@ -3,6 +3,15 @@
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
 
+@font-face {
+  font-family: 'Karla';
+  src: url(../fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: 'Karla';
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
