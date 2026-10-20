@@ -47,8 +47,56 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 .contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   background-color: #fffdf8;
   border-top: 5px solid #b59560;
   border-radius:10px;
   padding: 50px;
+  color: #193b32;
+}
+
+.contact-header-intro {
+  font-size: 4em;
+}
+
+.header-contact-para {
+  color: #697576;
+  font-size: larger;
+}
+
+.contact-items-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+  color: #193b32;
+}
+
+.contact-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.reservation-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f3ec;
+  border: 1px solid #ded8cb;
+  border-radius: 10px;
+  padding: 30px;
+  gap: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f3ec;
+  border: 1px solid #ded8cb;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 30px;
+  width: 60vh;
 }

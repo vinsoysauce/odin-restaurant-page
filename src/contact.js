@@ -10,7 +10,7 @@ const contact = (() => {
 
   const headerIntro = document.createElement("h1");
   headerIntro.classList.add("contact-header-intro");
-  headerIntro.textContent = "Come Join Us"
+  headerIntro.textContent = "Dine with Us"
   contactHeaderContainer.appendChild(headerIntro);
   const contactHeaderPara = document.createElement("p");
   contactHeaderPara.classList.add("header-contact-para");
@@ -26,60 +26,59 @@ const contact = (() => {
   const contactCardContainer = document.createElement("div");
   contactCardContainer.classList.add("contact-card-container");
 
-  const addressHeader = document.createElement("h3");
-  addressHeader.classList.add("contact-card-header");
+  const addressContainer = document.createElement("div");
+  addressContainer.classList.add('card-container')
+  const addressHeader = document.createElement("h2");
   addressHeader.textContent = "Visit Us";
-  contactCardContainer.appendChild(addressHeader)
+  addressContainer.appendChild(addressHeader)
   const addressOne = document.createElement("p");
-  addressOne.classList.add("contact-card-para");
   addressOne.textContent = "Steaks & Stones";
-  contactCardContainer.appendChild(addressOne)
+  addressContainer.appendChild(addressOne)
   const addressTwo = document.createElement("p");
-  addressTwo.classList.add("contact-card-para");
   addressTwo.textContent = "128 Olive Lane";
-  contactCardContainer.appendChild(addressTwo)
+  addressContainer.appendChild(addressTwo)
   const addressThree = document.createElement("p");
-  addressThree.classList.add("contact-card-para");
   addressThree.textContent = "Willowbrook, Oregon";
-  contactCardContainer.appendChild(addressThree)
+  addressContainer.appendChild(addressThree)
+  contactCardContainer.appendChild(addressContainer)
 
-  const openingHeader = document.createElement("h3");
-  openingHeader.classList.add("opening-card-header");
+  const openingContainer = document.createElement("div");
+  openingContainer.classList.add('card-container')
+  const openingHeader = document.createElement("h2");
   openingHeader.textContent = "Opening Hours";
-  contactCardContainer.appendChild(openingHeader)
+  openingContainer.appendChild(openingHeader)
   const openingOne = document.createElement("p");
-  openingOne.classList.add("contact-card-para");
   openingOne.textContent = "Monday: Closed";
-  contactCardContainer.appendChild(openingOne)
-  const openingTwo = document.createElement("p");
-  openingTwo.classList.add("contact-card-para");
+  openingContainer.appendChild(openingOne)
+  const openingTwo = document.createElement("p");;
   openingTwo.textContent = "Tuesday–Thursday: 5:00 PM–10:00 PM";
-  contactCardContainer.appendChild(openingTwo)
+  openingContainer.appendChild(openingTwo)
   const openingThree = document.createElement("p");
-  openingThree.classList.add("contact-card-para");
   openingThree.textContent = "Friday–Saturday: 5:00 PM–11:00 PM";
-  contactCardContainer.appendChild(openingThree)
+  openingContainer.appendChild(openingThree)
   const openingFour = document.createElement("p");
-  openingFour.classList.add("contact-card-para");
   openingFour.textContent = "Sunday: 4:00 PM–9:00 PM";
-  contactCardContainer.appendChild(openingFour)
+  openingContainer.appendChild(openingFour)
+  contactCardContainer.appendChild(openingContainer)
 
-  const reservationHeader = document.createElement("h3");
-  reservationHeader.classList.add("reservation-card-header");
+  const reservationContainer = document.createElement("div");
+  reservationContainer.classList.add('reservation-container')
+  const reservationHeader = document.createElement("h2");
   reservationHeader.textContent = "Reservations & Inquiries";
-  contactCardContainer.appendChild(reservationHeader)
+  reservationContainer.appendChild(reservationHeader)
   const reservationOne = document.createElement("p");
-  reservationOne.classList.add("contact-card-para");
   reservationOne.textContent = "Phone: (503) 555-0148";
-  contactCardContainer.appendChild(reservationOne)
+  reservationContainer.appendChild(reservationOne)
   const reservationTwo = document.createElement("p");
-  reservationTwo.classList.add("contact-card-para");
-  reservationTwo.textContent = "Email: hello@saffronandstone.example";
-  contactCardContainer.appendChild(reservationTwo)
+  reservationTwo.textContent = "Email: hello@steaksandstones.example";
+  reservationContainer.appendChild(reservationTwo)
   const reservationThree = document.createElement("p");
-  reservationThree.classList.add("contact-card-para");
-  reservationThree.textContent = "Call or email to request a table. For parties of six or more, please contact us in advance.";
-  contactCardContainer.appendChild(reservationThree)
+  reservationThree.textContent = "Call or email to request a table.";
+  reservationContainer.appendChild(reservationThree)
+  const reservationFour = document.createElement("p");
+  reservationFour.textContent = "For parties of six or more, please contact us in advance.";
+  reservationContainer.appendChild(reservationFour)
+  contactItemsContainer.appendChild(reservationContainer)
 
 
 
