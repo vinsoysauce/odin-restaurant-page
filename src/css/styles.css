@@ -73,13 +73,13 @@ header {
 nav {
   display: flex;
   gap: 50px;
+  font-size: 1.2em;
 }
 
 button {
-  font-size: large;
   min-width: 100px;
-  min-height: 40px;
-  border-radius: 50px;
+  min-height: 50px;
+  border-radius: 10px;
   border-style: none;
   color: rgb(0, 73, 0);
   background-color:floralwhite;
