@@ -231,7 +231,7 @@ const menu = (() => {
   bevContainerOne.appendChild(bevPriceContainerOne);
   const bevDescOne = document.createElement("p");
   bevDescOne.classList.add("food-description");
-  bevDescOne.textContent = "Fresh lemon juice, rosemary syrup, sparkling water, and ice."
+  bevDescOne.textContent = "Fresh lemon juice, lemon squeeze, rosemary syrup, sparkling water, and ice."
   bevContainerOne.appendChild(bevDescOne)
   columnTwoItems.appendChild(bevContainerOne)
 
@@ -250,7 +250,7 @@ const menu = (() => {
   bevContainerTwo.appendChild(bevPriceContainerTwo);
   const bevDescTwo = document.createElement("p");
   bevDescTwo.classList.add("food-description");
-  bevDescTwo.textContent = "Freshly brewed black tea, peach purée, and mint."
+  bevDescTwo.textContent = "Freshly brewed black tea, sparkling water, ice, peach purée, and mint."
   bevContainerTwo.appendChild(bevDescTwo)
   columnTwoItems.appendChild(bevContainerTwo)
 
